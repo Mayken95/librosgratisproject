@@ -1,0 +1,27 @@
+#descriptionmain{
+    width: 100%;
+}
+#descriptionmain{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#descriptionmainone{
+    display: flex;
+    flex-direction: column; 
+}
+#descriptionzone{
+    display: grid;
+    grid-template-areas: "zone1 zone1 zone1 zone2 zone2";
+}
+#partone{
+    grid-area: zone1;
+}
+#parttwo{
+    grid-area: zone2;
+}
+
+#description{
+    display: flex;
+    flex-direction: column; 
+}
